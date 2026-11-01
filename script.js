@@ -42,56 +42,56 @@ const MOTION = {
 const BOOK = {
   coverTitle: 'Ký ức<br>Sài Gòn',
   coverSub: 'Lịch sử hình thành',
-  epigraph: 'Mỗi thành phố đều có một cuốn sử viết bằng gạch đá, và một cuốn khác viết bằng ký ức của những người từng sống nơi đó. Ấn phẩm này mời bạn lật mở cả hai: từ Sài Gòn xưa với bến nước và những con phố cũ, đến Thành phố Hồ Chí Minh hiện đại của ngày hôm nay, nơi mỗi chặng đường đều để lại dấu ấn về những sự kiện, cột mốc tiêu biểu và giá trị của nơi đây.',
+  epigraph: 'Mỗi thành phố đều có một cuốn sử viết bằng gạch đá, và một cuốn khác viết bằng ký ức của những người từng sống nơi đó. Ấn phẩm này mời bạn lật mở cả hai: từ Sài Gòn xưa với bến nước và phố cũ đến TP. Hồ Chí Minh hiện đại, nơi mỗi chặng đường để lại dấu ấn về những sự kiện và cột mốc tiêu biểu.',
   chapters: [
     { no: '1', name: 'Sài Gòn xưa', period: '1954 – 1991', lede: 'Từ đô thị thời chia cắt đến Thành phố mang tên Bác.',
       img: 'past', alt: 'Ảnh tư liệu Sài Gòn xưa', cap: 'Sài Gòn xưa · [nguồn: Báo Tuổi Trẻ]',
       pages: [
         { kicker: '1954 – 1975', title: 'Đô thị thời chia cắt',
-          html: '<p>Sau Hiệp định Genève năm 1954, đất nước tạm thời chia cắt hai miền, Sài Gòn trở thành thủ đô của chính quyền Việt Nam Cộng hòa. Thành phố phát triển về thương mại, báo chí, nghệ thuật và giải trí.</p><p>Quá trình đô thị hóa cùng làn sóng nhập cư khiến dân số tăng nhanh, góp phần tạo nên đời sống văn hóa đa dạng với nhiều phong tục, ẩm thực, tín ngưỡng và lối sống khác nhau. Tuy nhiên, chiến tranh cũng gây ra nhiều vấn đề như thất nghiệp, thiếu nhà ở, chênh lệch mức sống và bất ổn xã hội.</p>' },
+          html: '<p>Sau Hiệp định Genève (1954), đất nước tạm chia cắt hai miền; Sài Gòn trở thành thủ đô của chính quyền Việt Nam Cộng hòa và phát triển về thương mại, báo chí, nghệ thuật, giải trí.</p><p>Đô thị hóa và làn sóng nhập cư làm dân số tăng nhanh, tạo nên đời sống văn hóa đa dạng. Chiến tranh cũng để lại nhiều vấn nạn: thất nghiệp, thiếu nhà ở, chênh lệch mức sống.</p>' },
         { kicker: 'Dấu ấn kiến trúc', title: 'Công trình còn lại đến nay',
-          html: '<p>Một số công trình kiến trúc tiêu biểu còn tồn tại đến ngày nay:</p><ul class="bul"><li><b>Dinh Độc Lập</b> (nay là Hội trường Thống Nhất): từng là dinh tổng thống và trung tâm quyền lực của chính quyền Việt Nam Cộng hòa, gắn liền với sự kiện ngày 30/4/1975.</li><li><b>Thư viện Quốc gia</b> (nay là Thư viện Khoa học Tổng hợp TP.HCM): khánh thành năm 1971, góp phần lưu giữ tài liệu và phát triển văn hóa đọc.</li><li><b>Khách sạn Caravelle</b> (1959): khách sạn hiện đại tiêu biểu thời bấy giờ, gắn với ngoại giao, báo chí quốc tế và đời sống xã hội Sài Gòn.</li></ul>' },
+          html: '<p>Một số công trình tiêu biểu còn tồn tại đến nay:</p><ul class="bul"><li><b>Dinh Độc Lập</b> (nay là Hội trường Thống Nhất): gắn với sự kiện 30/4/1975.</li><li><b>Thư viện Quốc gia</b> (nay là Thư viện Khoa học Tổng hợp): khánh thành năm 1971.</li><li><b>Khách sạn Caravelle</b> (1959): gắn với ngoại giao và báo chí quốc tế.</li></ul>' },
         { kicker: '1975 – 1976', title: 'Thống nhất non sông',
-          html: '<p>Ngày 30/4/1975, Sài Gòn – Gia Định được giải phóng, thành phố bước vào giai đoạn khôi phục và xây dựng sau chiến tranh.</p><p>Chính quyền tập trung khắc phục hậu quả, ổn định đời sống người dân, đẩy mạnh cứu trợ, giáo dục, chăm sóc sức khỏe, giải quyết việc làm và khôi phục sản xuất. Tuy nhiên, thành phố vẫn đối mặt với nhiều khó khăn như thiếu lương thực, hàng hóa, vốn và những hạn chế từ cơ chế bao cấp.</p>' },
+          html: '<p>Ngày 30/4/1975, Sài Gòn – Gia Định được giải phóng, thành phố bước vào giai đoạn khôi phục sau chiến tranh.</p><p>Chính quyền tập trung ổn định đời sống, cứu trợ, giáo dục, y tế, giải quyết việc làm và khôi phục sản xuất. Thành phố vẫn còn nhiều khó khăn: thiếu lương thực, hàng hóa, vốn và hạn chế của cơ chế bao cấp.</p>' },
         { kicker: 'Từ 1976 · Thời kỳ Đổi mới', title: 'Thành phố mang tên Bác',
-          html: '<p>Ngày 2/7/1976, Quốc hội quyết định đổi tên Sài Gòn – Gia Định thành Thành phố Hồ Chí Minh, mở ra một giai đoạn phát triển mới.</p><p>Công cuộc Đổi mới năm 1986 từng bước chuyển nền kinh tế sang cơ chế thị trường định hướng xã hội chủ nghĩa, tạo điều kiện phát triển các thành phần kinh tế và mở rộng sản xuất, kinh doanh. Năm 1991, Khu chế xuất Tân Thuận ra đời, đánh dấu bước chuyển quan trọng trong thu hút đầu tư và phát triển công nghiệp.</p>' },
+          html: '<p>Ngày 2/7/1976, Quốc hội đổi tên Sài Gòn – Gia Định thành Thành phố Hồ Chí Minh.</p><p>Công cuộc Đổi mới năm 1986 từng bước chuyển nền kinh tế sang cơ chế thị trường, mở rộng sản xuất, kinh doanh. Năm 1991, Khu chế xuất Tân Thuận ra đời, đánh dấu bước chuyển quan trọng trong thu hút đầu tư.</p>' },
         { kicker: 'Dòng thời gian', title: 'Những dấu mốc 1954 – 1991',
-          html: '<ul class="tl"><li><b>1954</b><span>Hiệp định Genève; đất nước tạm thời chia cắt hai miền</span></li><li><b>1971</b><span>Thư viện Quốc gia được khánh thành</span></li><li><b>30/4/1975</b><span>Sài Gòn – Gia Định được giải phóng</span></li><li><b>2/7/1976</b><span>Đổi tên thành Thành phố Hồ Chí Minh</span></li><li><b>1986</b><span>Công cuộc Đổi mới</span></li><li><b>1991</b><span>Khu chế xuất Tân Thuận ra đời</span></li></ul>' }
+          html: '<ul class="tl"><li><b>1954</b><span>Hiệp định Genève</span></li><li><b>1971</b><span>Thư viện Quốc gia khánh thành</span></li><li><b>30/4/1975</b><span>Giải phóng Sài Gòn – Gia Định</span></li><li><b>2/7/1976</b><span>Mang tên TP. Hồ Chí Minh</span></li><li><b>1986</b><span>Công cuộc Đổi mới</span></li><li><b>1991</b><span>Khu chế xuất Tân Thuận</span></li></ul>' }
       ] },
     { no: '2', name: 'Sài Gòn nay', period: '1990 – nay', lede: 'Hội nhập, đổi thay diện mạo và mở rộng không gian phát triển.',
       img: 'present', alt: 'Ảnh Sài Gòn – TP. Hồ Chí Minh hiện nay', cap: 'TP. Hồ Chí Minh hôm nay · [nguồn: Internet]',
       pages: [
         { kicker: '1990 – 2002', title: 'Thời kỳ bứt phá hội nhập',
-          html: '<p>Từ thập niên 1990, thành phố đẩy mạnh thu hút đầu tư và hội nhập quốc tế. Các dấu mốc tiêu biểu gồm:</p><ul class="tl"><li><b>1993</b><span>Phú Mỹ Hưng</span></li><li><b>1995</b><span>Gia nhập ASEAN</span></li><li><b>2000</b><span>Trung tâm Giao dịch Chứng khoán</span></li><li><b>2002</b><span>Khu Công nghệ cao</span></li></ul><p>Đây là giai đoạn chuyển mình sang kinh tế thị trường và mở rộng hợp tác quốc tế.</p>' },
+          html: '<p>Từ thập niên 1990, thành phố đẩy mạnh đầu tư và hội nhập quốc tế:</p><ul class="tl"><li><b>1993</b><span>Phú Mỹ Hưng</span></li><li><b>1995</b><span>Gia nhập ASEAN</span></li><li><b>2000</b><span>Trung tâm Giao dịch Chứng khoán</span></li><li><b>2002</b><span>Khu Công nghệ cao</span></li></ul><p>Giai đoạn chuyển mình sang kinh tế thị trường và hợp tác quốc tế.</p>' },
         { kicker: '2011 – 2025', title: 'Diện mạo đô thị đổi thay',
-          html: '<ul class="tl"><li><b>2011</b><span>Đại lộ Đông – Tây và hầm Thủ Thiêm thông xe</span></li><li><b>2018</b><span>Landmark 81 hoàn thành</span></li><li><b>2021</b><span>TP. Thủ Đức được thành lập</span></li><li><b>Cuối 2024</b><span>Tuyến metro số 1 Bến Thành – Suối Tiên vận hành thương mại</span></li></ul><p>Metro mở ra hướng phát triển mới cho giao thông đô thị.</p>' },
+          html: '<ul class="tl"><li><b>2011</b><span>Đại lộ Đông – Tây, hầm Thủ Thiêm thông xe</span></li><li><b>2018</b><span>Landmark 81 hoàn thành</span></li><li><b>2021</b><span>Thành lập TP. Thủ Đức</span></li><li><b>Cuối 2024</b><span>Metro số 1 vận hành thương mại</span></li></ul><p>Metro mở ra hướng phát triển mới cho giao thông đô thị.</p>' },
         { kicker: 'Từ 2025', title: 'Mở rộng không gian phát triển',
-          html: '<p>Năm 2025, TP. Hồ Chí Minh sáp nhập với Bình Dương và Bà Rịa – Vũng Tàu, mở rộng không gian phát triển theo hướng đa trung tâm.</p><p>Thành phố đặt mục tiêu GRDP bình quân đầu người đạt khoảng:</p><div class="stats"><div><b>13.000</b><span>USD vào năm 2030</span></div><div><b>37.000</b><span>USD vào năm 2045</span></div></div>' }
+          html: '<p>Năm 2025, TP. Hồ Chí Minh sáp nhập với Bình Dương và Bà Rịa – Vũng Tàu, mở rộng không gian phát triển theo hướng đa trung tâm.</p><p>Mục tiêu GRDP bình quân đầu người:</p><div class="stats"><div><b>13.000</b><span>USD vào năm 2030</span></div><div><b>37.000</b><span>USD vào năm 2045</span></div></div>' }
       ] },
     { no: '3', name: 'Đời sống văn hóa, xã hội', period: 'Xưa và nay', lede: 'Nơi hội tụ của nhiều cộng đồng và nhiều dòng chảy văn hóa.',
       img: 'culture', alt: 'Ảnh đời sống văn hóa – xã hội Sài Gòn', cap: 'Nhà thờ Đức Bà · [nguồn: vietgoing.com]',
       pages: [
         { kicker: 'Cộng đồng và lối sống', title: 'Đô thị đa văn hóa',
-          html: '<p>Qua nhiều giai đoạn nhập cư và giao lưu, Sài Gòn – TP. Hồ Chí Minh trở thành nơi hội tụ của nhiều cộng đồng: người Việt, người Hoa, người Khmer, người Chăm cùng cư dân từ khắp các vùng miền.</p><p>Sự đa dạng ấy tạo nên đời sống cởi mở, thể hiện trong ẩm thực, lễ hội, tín ngưỡng và nếp sống thường ngày. Giai đoạn 1954 – 1975, báo chí, nghệ thuật và giải trí phát triển mạnh, làm phong phú thêm đời sống tinh thần của thành phố.</p>' },
+          html: '<p>Qua nhiều giai đoạn nhập cư và giao lưu, Sài Gòn – TP. Hồ Chí Minh là nơi hội tụ của người Việt, người Hoa, người Khmer, người Chăm và cư dân từ khắp các vùng miền.</p><p>Sự đa dạng ấy tạo nên đời sống cởi mở trong ẩm thực, lễ hội, tín ngưỡng. Giai đoạn 1954 – 1975, báo chí, nghệ thuật và giải trí phát triển mạnh.</p>' },
         { kicker: 'Không gian văn hóa', title: 'Di sản và điểm hẹn của người dân',
-          html: '<p>Nhiều công trình từ thời kỳ đầu đô thị hóa vẫn là biểu tượng của thành phố:</p><ul class="bul"><li><b>Nhà thờ Đức Bà</b> — xây dựng 1863 – 1880</li><li><b>Bưu điện Trung tâm</b> — hoàn thành năm 1891</li><li><b>Nhà hát Thành phố</b> — khánh thành năm 1900</li><li><b>Chợ Bến Thành</b> — khánh thành năm 1914</li></ul><p>Các không gian mới như phố đi bộ Nguyễn Huệ (2015) hay Đường sách TP.HCM (2016) tiếp nối nhu cầu sinh hoạt văn hóa của người dân.</p>' },
+          html: '<p>Nhiều công trình thời đầu đô thị hóa vẫn là biểu tượng của thành phố:</p><ul class="bul"><li><b>Nhà thờ Đức Bà</b> — 1863 – 1880</li><li><b>Bưu điện Trung tâm</b> — 1891</li><li><b>Nhà hát Thành phố</b> — 1900</li><li><b>Chợ Bến Thành</b> — 1914</li></ul><p>Phố đi bộ Nguyễn Huệ (2015) và Đường sách TP.HCM (2016) tiếp nối nhu cầu sinh hoạt văn hóa.</p>' },
         { kicker: 'Nghệ thuật và tri thức', title: 'Tinh thần Nam Bộ giữa đô thị hiện đại',
-          html: '<p>Thành phố là nơi phát triển mạnh nhiều loại hình nghệ thuật Nam Bộ, tiêu biểu là cải lương. Năm 2013, Đờn ca tài tử Nam Bộ được UNESCO ghi danh là Di sản văn hóa phi vật thể đại diện của nhân loại.</p><p>Lễ hội Áo dài (từ năm 2014) góp phần lan tỏa vẻ đẹp trang phục truyền thống, còn Đại học Quốc gia TP.HCM (thành lập năm 1995) là một trung tâm đào tạo và nghiên cứu lớn của thành phố.</p>' }
+          html: '<p>Thành phố phát triển mạnh nghệ thuật Nam Bộ, tiêu biểu là cải lương. Năm 2013, Đờn ca tài tử Nam Bộ được UNESCO ghi danh là Di sản văn hóa phi vật thể đại diện của nhân loại.</p><p>Lễ hội Áo dài (từ 2014) lan tỏa vẻ đẹp trang phục truyền thống; Đại học Quốc gia TP.HCM (1995) là trung tâm đào tạo, nghiên cứu lớn.</p>' }
       ] },
     { no: '4', name: 'Khoa học, kỹ thuật', period: '1864 – 2025', lede: 'Từ những thiết chế khoa học đầu tiên đến hạ tầng của đô thị hiện đại.',
       img: 'bookScience', alt: 'Ảnh khoa học – kỹ thuật và hạ tầng đô thị', cap: 'Tuyến metro số 1 · [nguồn: Báo Thanh Niên]',
       pages: [
         { kicker: 'Từ thế kỷ XIX', title: 'Những nền móng đầu tiên',
-          html: '<p>Sài Gòn sớm có những thiết chế khoa học – kỹ thuật quan trọng như Thảo Cầm Viên (1864) và Viện Pasteur Sài Gòn (1891), do bác sĩ Albert Calmette sáng lập, một cơ sở nghiên cứu y học – vi sinh quan trọng của khu vực.</p><p>Cùng với cầu đường, bến cảng và bưu điện, những công trình ấy cho thấy thành phố sớm là đầu mối giao thương và tri thức.</p>' },
-        { kicker: 'Thời kỳ Đổi mới', title: 'Khu công nghiệp và công nghệ cao',
+          html: '<p>Sài Gòn sớm có những thiết chế khoa học – kỹ thuật quan trọng như Thảo Cầm Viên (1864) và Viện Pasteur Sài Gòn (1891), do bác sĩ Albert Calmette sáng lập.</p><p>Cùng cầu đường, bến cảng và bưu điện, các công trình ấy cho thấy thành phố sớm là đầu mối giao thương và tri thức.</p>' },
+        { kicker: 'Thời kỳ Đổi mới', title: 'Khu công nghiệp và công nghệ cao', fit: '',
           html: '<p>Từ sau Đổi mới, khoa học – công nghệ gắn chặt với thu hút đầu tư và phát triển công nghiệp:</p><ul class="tl"><li><b>1991</b><span>Khu chế xuất Tân Thuận</span></li><li><b>2000</b><span>Công viên Phần mềm Quang Trung</span></li><li><b>2000</b><span>Trung tâm Giao dịch Chứng khoán</span></li><li><b>2002</b><span>Khu Công nghệ cao</span></li></ul>' },
         { kicker: '2011 – 2025', title: 'Hạ tầng của đô thị hiện đại',
-          html: '<p>Hầm Thủ Thiêm và Đại lộ Đông – Tây (2011) kết nối trung tâm thành phố với khu Thủ Thiêm; Landmark 81 (2018) cao hơn 460 m, trở thành biểu tượng mới của đường chân trời thành phố.</p><p>Cuối năm 2024, tuyến metro số 1 Bến Thành – Suối Tiên dài khoảng 19,7 km, gồm 14 nhà ga, bắt đầu vận hành thương mại, mở ra một cách di chuyển mới cho người dân.</p>' }
+          html: '<p>Hầm Thủ Thiêm và Đại lộ Đông – Tây (2011) nối trung tâm với Thủ Thiêm; Landmark 81 (2018) cao hơn 460 m, là biểu tượng mới của đường chân trời.</p><p>Cuối 2024, tuyến metro số 1 Bến Thành – Suối Tiên (khoảng 19,7 km, 14 nhà ga) bắt đầu vận hành thương mại.</p>' }
       ] }
   ],
   closingTitle: 'Lời kết',
-  closingText: '<p>Năm mươi năm là quãng đường đủ dài để một thành phố đi từ những ngày gian khó sau chiến tranh đến vị thế đầu tàu kinh tế của cả nước. Nhưng điều làm nên Sài Gòn – TP. Hồ Chí Minh không chỉ là những con số: đó là sự năng động, cởi mở và nghĩa tình của người dân qua từng thời kỳ.</p><p>Hiểu lịch sử là cách để chúng ta trân trọng hôm nay và tự tin bước tiếp, vì thành phố vẫn đang viết tiếp những trang mới.</p>',
-  sources: '<ul class="bul"><li>Sách giáo khoa Lịch sử 10</li><li>Báo Chính phủ (baochinhphu.vn)</li><li>Báo Sài Gòn Giải Phóng (sggp.org.vn)</li><li>UNESCO — Danh sách Di sản văn hóa phi vật thể (Đờn ca tài tử Nam Bộ)</li></ul>'
+  closingText: '<p>Năm mươi năm đủ dài để thành phố đi từ những ngày gian khó sau chiến tranh đến vị thế đầu tàu kinh tế cả nước. Điều làm nên Sài Gòn – TP. Hồ Chí Minh không chỉ là con số, mà là sự năng động, cởi mở và nghĩa tình của người dân.</p><p>Hiểu lịch sử là cách trân trọng hôm nay và tự tin bước tiếp, vì thành phố vẫn đang viết tiếp những trang mới.</p>',
+  sources: '<ul class="bul"><li>Sách giáo khoa Lịch sử 10</li><li>Báo Chính phủ (baochinhphu.vn)</li><li>Báo Sài Gòn Giải Phóng (sggp.org.vn)</li><li>UNESCO — Đờn ca tài tử Nam Bộ</li></ul>'
 };
 
 /* ---------- 2. ẢNH ---------- */
@@ -144,15 +144,15 @@ function buildPages() {
   // Mục lục (trang nội dung đầu tiên) + Lời đề từ
   page('', `<h4>Mục lục</h4><ul class="toc">${BOOK.chapters.map(c => `<li><span>${c.no}. ${c.name}</span><i>tr. ${c.start}</i></li>`).join('')}
     <li><span>${BOOK.closingTitle}</span><i>tr. ${closingStart}</i></li><li><span>Nguồn tư liệu</span><i>tr. ${closingStart + 1}</i></li></ul>`);
-  page('right', `<p class="cap">Mở đầu</p><h3 class="pg-h">Lời đề từ</h3><p class="lede">${BOOK.epigraph}</p>`);
+  page('right fit-s', `<p class="cap">Mở đầu</p><h3 class="pg-h">Lời đề từ</h3><p class="lede">${BOOK.epigraph}</p>`);
   // Mỗi chương: trang mở chương (trái) + các trang nội dung (phải, trái, phải…)
   BOOK.chapters.forEach(c => {
     page('', `<span class="ch">${c.no}</span><h4>${c.name}</h4><p class="cap">${c.period}</p><p class="lede">${c.lede}</p>
       <div class="ph" data-label="${c.alt}"><img data-key="${c.img}" alt="${c.alt}"></div><p class="cap">${c.cap}</p>`);
-    c.pages.forEach((p, i) => page(i % 2 === 0 ? 'right' : '', sec(p)));
+    c.pages.forEach((p, i) => page((i % 2 === 0 ? 'right' : '') + (p.fit === undefined ? ' fit-s' : (p.fit ? ' ' + p.fit : '')), sec(p)));   // fit-s = chữ nhỏ hơn một chút cho trang nhiều nội dung; thêm fit: '' để dùng cỡ chữ lớn, fit: 'fit-xs' để nhỏ hơn nữa
   });
   // 2 trang kết
-  page('', `<p class="cap">Khép lại</p><h3 class="pg-h">${BOOK.closingTitle}</h3>${BOOK.closingText}`);
+  page('fit-s', `<p class="cap">Khép lại</p><h3 class="pg-h">${BOOK.closingTitle}</h3>${BOOK.closingText}`);
   page('right', `<p class="cap">Tư liệu</p><h3 class="pg-h">Nguồn tư liệu</h3>${BOOK.sources}`);
   // Bìa sau
   page('cover', `<em>Hòn Ngọc Viễn Đông</em>`, true);
