@@ -494,3 +494,46 @@ figure.ph{box-shadow:0 18px 40px rgba(16,33,63,.18)}
 .page .num::before,.page .num::after{content:"—";margin:0 .45em;opacity:.5}
 /* số chương lớn: thêm đường kẻ dưới tên chương */
 .page .ch+h4::after{content:"";display:block;width:2.2em;height:2px;margin-top:.4em;background:var(--aqua)}
+
+/* =====================================================
+   14. SỬA LỖI: số trang luôn hiện, trang đông chữ, chữ trên bìa sách
+   ===================================================== */
+
+/* --- Số trang: neo cố định ở đáy trang, nền mờ dần để chữ tràn (nếu có) không đè lên --- */
+.page:not(.cover) .page-in{padding-bottom:12%;overflow:hidden}
+.page:not(.cover) .page-in::before{z-index:2}              /* khung viền nằm trên cùng */
+.page .num{position:absolute;left:0;right:0;bottom:0;z-index:1;margin:0;padding:1.1em 0 5.2%;line-height:1;
+  background:linear-gradient(rgba(248,244,234,0),var(--ivory) 55%)}
+
+/* --- Trang nhiều chữ: cỡ chữ nhỏ hơn một chút (vẫn lớn hơn bản gốc). Muốn chỉnh riêng từng trang: xem BOOK trong script.js --- */
+@supports (width:1cqw){
+  .page.fit-s .page-in{font-size:clamp(.6rem,3.7cqw,1.1rem)}
+  .page.fit-xs .page-in{font-size:clamp(.56rem,3.3cqw,1rem)}
+}
+.page.fit-s .stats b{font-size:1.9em}
+.page.fit-s .toc li,.page.fit-xs .toc li{padding:.4em 0}
+.page.fit-s .tl li{padding:.3em 0}
+.page.fit-s .bul li{margin:.25em 0}
+.page.fit-s .pg-h,.page.fit-xs .pg-h{font-size:1.55em}
+
+/* --- Bìa sách (đóng): chữ luôn nằm trên decor, chừa chỗ riêng cho đường chân trời --- */
+.cover-art{padding:2rem 2rem 28%}
+.cover-art>*{position:relative;z-index:2}
+.cover-art::before{z-index:1;background-size:60% auto;background-position:center bottom 20px}
+.cover-art::after{z-index:3}
+.cover-art p{margin-top:.2rem}
+@supports (width:1cqw){
+  .cover-art{container-type:inline-size}
+  .cover-art h3{font-size:clamp(1.9rem,11.5cqw,3.4rem)}
+  .cover-art p{font-size:clamp(.95rem,5.2cqw,1.15rem)}
+}
+
+/* --- Bìa trước/sau trong sách --- */
+.page.cover .page-in{padding-bottom:26%}
+.page.cover .page-in>*{position:relative;z-index:2}
+.page.cover .page-in::before{z-index:0}
+.page.cover .page-in::after{z-index:1;height:16%;bottom:7%;opacity:.8}
+/* Chỉ đẩy đường kẻ và hình thoi phía dưới phụ đề xuống */
+.cover-art > .cover-line:last-child {
+  transform: translateY(14px);
+}
